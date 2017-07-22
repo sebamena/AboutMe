@@ -32,6 +32,7 @@ public class EmailFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
         Button contactBtn = (Button) view.findViewById(R.id.contactBtn);
         contactBtn.setOnClickListener(new View.OnClickListener() {
             @Override
