@@ -5,14 +5,19 @@
     tools:context="cl.sebastian.aboutme.EmailFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/hello_blank_fragment" />-->
 
     <Button
         android:text="@string/email"
         android:id="@+id/contactBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
