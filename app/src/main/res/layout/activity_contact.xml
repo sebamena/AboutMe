@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="cl.sebastian.aboutme.ContactActivity">
 
+
+
+
+
+    <TextView
+
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:text="+569 93218133"
+        android:gravity="center_horizontal"
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        />
+
+
+
+
+    <TextView
+        android:paddingTop="20dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="30dp"
+        android:gravity="center_horizontal"
+        android:text="Linkedin"
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_linkedin_black_24dp"
+        android:layout_below="@+id/phone"
+        />
+
+
+
     <fragment
+        android:layout_below="@+id/link"
         android:id="@+id/emailFragment"
         android:name="cl.sebastian.aboutme.EmailFragment"
         android:layout_width="match_parent"
@@ -13,4 +49,4 @@
 
         />
 
-</LinearLayout>
+</RelativeLayout>
